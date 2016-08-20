@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+Tool.h
 //  bilibili_imitate
 //
 //  Created by hw on 16/8/20.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIColor (Tool)
 
++ (UIColor *)hexColor:(NSString*)hexColor;
 
 @end
-

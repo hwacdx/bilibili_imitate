@@ -7,25 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FCEBF1F9F6D4F4D682483AE /* libPods-bilibili_imitate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F709E3C893F22CBE1FD01E /* libPods-bilibili_imitate.a */; };
+		C547BE2C1D688B6A000F24A3 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE241D688B6A000F24A3 /* UIView+Frame.m */; };
+		C547BE2D1D688B6A000F24A3 /* YZDisplayTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE261D688B6A000F24A3 /* YZDisplayTitleLabel.m */; };
+		C547BE2E1D688B6A000F24A3 /* YZDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE281D688B6A000F24A3 /* YZDisplayViewController.m */; };
+		C547BE2F1D688B6A000F24A3 /* YZFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE2B1D688B6A000F24A3 /* YZFlowLayout.m */; };
+		C547BE361D689006000F24A3 /* UIColor+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE351D689006000F24A3 /* UIColor+Tool.m */; };
+		C547BE471D689138000F24A3 /* HWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE441D689138000F24A3 /* HWHomeViewController.m */; };
+		C547BE4E1D68913E000F24A3 /* HWPartionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE4B1D68913E000F24A3 /* HWPartionViewController.m */; };
+		C547BE521D6891B2000F24A3 /* HWLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE511D6891B2000F24A3 /* HWLiveViewController.m */; };
+		C547BE551D6891E3000F24A3 /* HWRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE541D6891E3000F24A3 /* HWRecommendViewController.m */; };
+		C547BE581D689261000F24A3 /* HWDramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C547BE571D689261000F24A3 /* HWDramaViewController.m */; };
 		C5B798281D68681A003915F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B798271D68681A003915F6 /* main.m */; };
 		C5B7982B1D68681A003915F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7982A1D68681A003915F6 /* AppDelegate.m */; };
-		C5B7982E1D68681A003915F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B7982D1D68681A003915F6 /* ViewController.m */; };
 		C5B798311D68681A003915F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B7982F1D68681A003915F6 /* Main.storyboard */; };
 		C5B798331D68681A003915F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B798321D68681A003915F6 /* Assets.xcassets */; };
 		C5B798361D68681A003915F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B798341D68681A003915F6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96D98FCF81E2CCD2E7D35B0B /* Pods-bilibili_imitate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilibili_imitate.release.xcconfig"; path = "Pods/Target Support Files/Pods-bilibili_imitate/Pods-bilibili_imitate.release.xcconfig"; sourceTree = "<group>"; };
+		A4EBBDF08769BC41C60669CF /* Pods-bilibili_imitate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bilibili_imitate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bilibili_imitate/Pods-bilibili_imitate.debug.xcconfig"; sourceTree = "<group>"; };
+		C547BE231D688B6A000F24A3 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C547BE241D688B6A000F24A3 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C547BE251D688B6A000F24A3 /* YZDisplayTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayTitleLabel.h; sourceTree = "<group>"; };
+		C547BE261D688B6A000F24A3 /* YZDisplayTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayTitleLabel.m; sourceTree = "<group>"; };
+		C547BE271D688B6A000F24A3 /* YZDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewController.h; sourceTree = "<group>"; };
+		C547BE281D688B6A000F24A3 /* YZDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZDisplayViewController.m; sourceTree = "<group>"; };
+		C547BE291D688B6A000F24A3 /* YZDisplayViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZDisplayViewHeader.h; sourceTree = "<group>"; };
+		C547BE2A1D688B6A000F24A3 /* YZFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZFlowLayout.h; sourceTree = "<group>"; };
+		C547BE2B1D688B6A000F24A3 /* YZFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZFlowLayout.m; sourceTree = "<group>"; };
+		C547BE341D689006000F24A3 /* UIColor+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tool.h"; sourceTree = "<group>"; };
+		C547BE351D689006000F24A3 /* UIColor+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tool.m"; sourceTree = "<group>"; };
+		C547BE431D689138000F24A3 /* HWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWHomeViewController.h; sourceTree = "<group>"; };
+		C547BE441D689138000F24A3 /* HWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWHomeViewController.m; sourceTree = "<group>"; };
+		C547BE4A1D68913E000F24A3 /* HWPartionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPartionViewController.h; sourceTree = "<group>"; };
+		C547BE4B1D68913E000F24A3 /* HWPartionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPartionViewController.m; sourceTree = "<group>"; };
+		C547BE501D6891B2000F24A3 /* HWLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLiveViewController.h; sourceTree = "<group>"; };
+		C547BE511D6891B2000F24A3 /* HWLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLiveViewController.m; sourceTree = "<group>"; };
+		C547BE531D6891E3000F24A3 /* HWRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWRecommendViewController.h; sourceTree = "<group>"; };
+		C547BE541D6891E3000F24A3 /* HWRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWRecommendViewController.m; sourceTree = "<group>"; };
+		C547BE561D689261000F24A3 /* HWDramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDramaViewController.h; sourceTree = "<group>"; };
+		C547BE571D689261000F24A3 /* HWDramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDramaViewController.m; sourceTree = "<group>"; };
 		C5B798231D68681A003915F6 /* bilibili_imitate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bilibili_imitate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B798271D68681A003915F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5B798291D68681A003915F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5B7982A1D68681A003915F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5B7982C1D68681A003915F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C5B7982D1D68681A003915F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5B798301D68681A003915F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5B798321D68681A003915F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5B798351D68681A003915F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5B798371D68681A003915F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F709E3C893F22CBE1FD01E /* libPods-bilibili_imitate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bilibili_imitate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,150 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCEBF1F9F6D4F4D682483AE /* libPods-bilibili_imitate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		374988E0C67C35FDCF352B91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3F709E3C893F22CBE1FD01E /* libPods-bilibili_imitate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E78226F1C20ADBCC13B2AB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4EBBDF08769BC41C60669CF /* Pods-bilibili_imitate.debug.xcconfig */,
+				96D98FCF81E2CCD2E7D35B0B /* Pods-bilibili_imitate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C547BE211D688B5C000F24A3 /* ThirdFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C547BE221D688B6A000F24A3 /* YZDisplayViewController */,
+			);
+			path = ThirdFrameworks;
+			sourceTree = "<group>";
+		};
+		C547BE221D688B6A000F24A3 /* YZDisplayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C547BE231D688B6A000F24A3 /* UIView+Frame.h */,
+				C547BE241D688B6A000F24A3 /* UIView+Frame.m */,
+				C547BE251D688B6A000F24A3 /* YZDisplayTitleLabel.h */,
+				C547BE261D688B6A000F24A3 /* YZDisplayTitleLabel.m */,
+				C547BE271D688B6A000F24A3 /* YZDisplayViewController.h */,
+				C547BE281D688B6A000F24A3 /* YZDisplayViewController.m */,
+				C547BE291D688B6A000F24A3 /* YZDisplayViewHeader.h */,
+				C547BE2A1D688B6A000F24A3 /* YZFlowLayout.h */,
+				C547BE2B1D688B6A000F24A3 /* YZFlowLayout.m */,
+			);
+			path = YZDisplayViewController;
+			sourceTree = "<group>";
+		};
+		C547BE301D688F49000F24A3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C547BE341D689006000F24A3 /* UIColor+Tool.h */,
+				C547BE351D689006000F24A3 /* UIColor+Tool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C547BE411D689138000F24A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C547BE421D689138000F24A3 /* Controller */,
+				C547BE451D689138000F24A3 /* Model */,
+				C547BE461D689138000F24A3 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C547BE421D689138000F24A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C547BE431D689138000F24A3 /* HWHomeViewController.h */,
+				C547BE441D689138000F24A3 /* HWHomeViewController.m */,
+				C547BE4F1D689182000F24A3 /* Sub */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C547BE451D689138000F24A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C547BE461D689138000F24A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C547BE481D68913E000F24A3 /* Partion */ = {
+			isa = PBXGroup;
+			children = (
+				C547BE491D68913E000F24A3 /* Controller */,
+				C547BE4C1D68913E000F24A3 /* Model */,
+				C547BE4D1D68913E000F24A3 /* View */,
+			);
+			path = Partion;
+			sourceTree = "<group>";
+		};
+		C547BE491D68913E000F24A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C547BE4A1D68913E000F24A3 /* HWPartionViewController.h */,
+				C547BE4B1D68913E000F24A3 /* HWPartionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C547BE4C1D68913E000F24A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C547BE4D1D68913E000F24A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C547BE4F1D689182000F24A3 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				C547BE501D6891B2000F24A3 /* HWLiveViewController.h */,
+				C547BE511D6891B2000F24A3 /* HWLiveViewController.m */,
+				C547BE531D6891E3000F24A3 /* HWRecommendViewController.h */,
+				C547BE541D6891E3000F24A3 /* HWRecommendViewController.m */,
+				C547BE561D689261000F24A3 /* HWDramaViewController.h */,
+				C547BE571D689261000F24A3 /* HWDramaViewController.m */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
 		C5B7981A1D68681A003915F6 = {
 			isa = PBXGroup;
 			children = (
 				C5B798251D68681A003915F6 /* bilibili_imitate */,
 				C5B798241D68681A003915F6 /* Products */,
+				8E78226F1C20ADBCC13B2AB7 /* Pods */,
+				374988E0C67C35FDCF352B91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +223,12 @@
 		C5B798251D68681A003915F6 /* bilibili_imitate */ = {
 			isa = PBXGroup;
 			children = (
+				C547BE481D68913E000F24A3 /* Partion */,
+				C547BE411D689138000F24A3 /* Home */,
+				C547BE301D688F49000F24A3 /* Tools */,
+				C547BE211D688B5C000F24A3 /* ThirdFrameworks */,
 				C5B798291D68681A003915F6 /* AppDelegate.h */,
 				C5B7982A1D68681A003915F6 /* AppDelegate.m */,
-				C5B7982C1D68681A003915F6 /* ViewController.h */,
-				C5B7982D1D68681A003915F6 /* ViewController.m */,
 				C5B7982F1D68681A003915F6 /* Main.storyboard */,
 				C5B798321D68681A003915F6 /* Assets.xcassets */,
 				C5B798341D68681A003915F6 /* LaunchScreen.storyboard */,
@@ -86,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5B7983A1D68681A003915F6 /* Build configuration list for PBXNativeTarget "bilibili_imitate" */;
 			buildPhases = (
+				847FB85A3FA15593F08FD04B /* [CP] Check Pods Manifest.lock */,
 				C5B7981F1D68681A003915F6 /* Sources */,
 				C5B798201D68681A003915F6 /* Frameworks */,
 				C5B798211D68681A003915F6 /* Resources */,
+				D3F9DBFF566FFA868767D305 /* [CP] Embed Pods Frameworks */,
+				94A2FAF32F120B54AEFB41E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +314,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		847FB85A3FA15593F08FD04B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94A2FAF32F120B54AEFB41E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bilibili_imitate/Pods-bilibili_imitate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F9DBFF566FFA868767D305 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bilibili_imitate/Pods-bilibili_imitate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5B7981F1D68681A003915F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5B7982E1D68681A003915F6 /* ViewController.m in Sources */,
+				C547BE471D689138000F24A3 /* HWHomeViewController.m in Sources */,
+				C547BE551D6891E3000F24A3 /* HWRecommendViewController.m in Sources */,
+				C547BE2D1D688B6A000F24A3 /* YZDisplayTitleLabel.m in Sources */,
+				C547BE2F1D688B6A000F24A3 /* YZFlowLayout.m in Sources */,
+				C547BE2E1D688B6A000F24A3 /* YZDisplayViewController.m in Sources */,
 				C5B7982B1D68681A003915F6 /* AppDelegate.m in Sources */,
+				C547BE2C1D688B6A000F24A3 /* UIView+Frame.m in Sources */,
+				C547BE4E1D68913E000F24A3 /* HWPartionViewController.m in Sources */,
 				C5B798281D68681A003915F6 /* main.m in Sources */,
+				C547BE581D689261000F24A3 /* HWDramaViewController.m in Sources */,
+				C547BE361D689006000F24A3 /* UIColor+Tool.m in Sources */,
+				C547BE521D6891B2000F24A3 /* HWLiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +488,11 @@
 		};
 		C5B7983B1D68681A003915F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EBBDF08769BC41C60669CF /* Pods-bilibili_imitate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = bilibili_imitate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hannibal.bilibili-imitate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +501,11 @@
 		};
 		C5B7983C1D68681A003915F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D98FCF81E2CCD2E7D35B0B /* Pods-bilibili_imitate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = bilibili_imitate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hannibal.bilibili-imitate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +531,7 @@
 				C5B7983C1D68681A003915F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "RDVTabBarController.h"
+#import "RDVTabBarItem.h"
+#import "HWHomeViewController.h"
+#import "HWPartionViewController.h"
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic) RDVTabBarController *tabBarVC;
 
 @end
 
@@ -17,7 +23,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+ 
+    [self initViewController];
     return YES;
+}
+
+- (void)initViewController
+{
+    HWHomeViewController *homeVC = [HWHomeViewController new];
+    UINavigationController *homeNav = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    
+    HWPartionViewController *partionVC = [HWPartionViewController new];
+    UINavigationController *partionNav = [[UINavigationController alloc] initWithRootViewController:partionVC];
+    
+    self.tabBarVC = [[RDVTabBarController alloc] init];
+    self.tabBarVC.viewControllers = @[homeNav, partionNav];
+    NSArray *tabBarItemImages = @[@"home_tab", @"partion_tab"];
+    
+    NSInteger index = 0;
+    for (RDVTabBarItem *item in [[self.tabBarVC tabBar] items]) {
+        NSString *tempStr = [tabBarItemImages objectAtIndex:index];
+        UIImage *unselectedimage = [UIImage imageNamed:tempStr];
+        UIImage *selectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@_select", tempStr]];
+        [item setFinishedSelectedImage:selectedimage withFinishedUnselectedImage:unselectedimage];
+        index++;
+    }
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = self.tabBarVC;
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
